@@ -3,17 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>IA</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
-    <h2>ひらがなのみでお願いします</h2>
-    <table>
-      <tr>
-        <th><input type="text" name="" id="parson"></th>
-        <th><input type="button" name="" value="送信" onclick="returns()"></th>
-      </tr>
-    </table>
-    <br><br><br><div id="answer"></div>
+    <h2>AIじゃないIAさん</h2>
+    <div class="aaa">
+      <input type="text" class="ptext" size="30" id="parson">
+      <input type="button" class="button" value="送信" onclick="returns()">
+    </div>
+    <br><br><br><div class="ans" id="answer"></div>
+    <iframe class="fome" src="https://docs.google.com/forms/d/e/1FAIpQLScGudgNVr32RQA10FksvYEmcwdb3QsXMs3pE9chCYvDsG1VdQ/viewform?embedded=true" width="640" height="459" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+    <footer><p><small>&copy; 2021 3_5yoshitosuzuki</small></p></footer>
   </body>
   <script type="text/javascript">
     var parson = document.getElementById("parson").value;
