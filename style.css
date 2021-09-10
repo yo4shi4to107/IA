@@ -7,6 +7,10 @@ h2{
   text-align: center;
   font-family: 'Noto Serif JP', serif;
 }
+p{
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+}
 .aaa{
   display: flex;
   flex-direction: row;
